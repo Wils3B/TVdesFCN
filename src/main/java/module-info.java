@@ -7,6 +7,7 @@ module org.wh.tv_fcn {
 
     opens org.wh.tv_fcn to javafx.fxml;
     opens org.wh.tv_fcn.controllers to javafx.fxml;
+
     exports org.wh.tv_fcn;
     exports org.wh.tv_fcn.controllers;
 }
