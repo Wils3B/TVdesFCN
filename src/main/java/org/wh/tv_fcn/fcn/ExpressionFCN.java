@@ -167,7 +167,7 @@ public class ExpressionFCN {
     for (String clause : clauses) {
       if (!clause.equals(clauses.get(0))) builder.append('&');
 
-      if (clause.length() > 2) builder.append('(').append(clause).append('0');
+      if (clause.length() > 2) builder.append('(').append(clause).append(')');
       else builder.append(clause);
     }
     String expr = builder.toString();
@@ -251,5 +251,9 @@ public class ExpressionFCN {
     } catch (FCNException e) {
       e.printStackTrace();
     }
+  }
+
+  public String getExpression() {
+    return expression;
   }
 }
