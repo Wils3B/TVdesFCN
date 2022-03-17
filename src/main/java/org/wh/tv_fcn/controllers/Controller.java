@@ -329,7 +329,7 @@ public class Controller {
     onVueClk();
     // @FixMe: expression.setExpression("");
     //moteur.load("org/wh/tv_fcn/help/TVdesFCN.html");
-    String url = Main.class.getResource("help/TVdesFCN.html").toString();
+    String url = "https://tvdesfcn-aide.web.app/TVdesFCN.html";
     if (url.startsWith("jar")) { //La classe est empaquettée dans un jar
       url = url.substring(4, url.lastIndexOf("org") - 1);
       url = url.substring(0, url.lastIndexOf("/")) + "/help/TVdesFCN.html";
