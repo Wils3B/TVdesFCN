@@ -69,7 +69,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>org.wh.tv_fcn/org.wh.tv_fcn.MainApplication</mainClass>
+                            <mainClass>org.wh.tv_fcn/org.wh.tv_fcn.Main</mainClass>
                         </configuration>
                     </execution>
                 </executions>
